@@ -7551,7 +7551,7 @@ textmode.create = function (container) {
       });
     }
 
-    if (this.mode === 'code') {
+    if (this.mode === 'code' && false) {
       var powererByWrapper = document.createElement('div');
       powererByWrapper.appendChild(document.createTextNode('powered by '));
       powererByWrapper.className = 'jsoneditor-poweredBy';
