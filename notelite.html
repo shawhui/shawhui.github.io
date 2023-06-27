@@ -42,6 +42,7 @@
   </style>
 </head>
 <body>
+  <div class="back" onclick="window.navigation.back()"><span>&lt;</span></div>
   <div id="editor" contenteditable="true"></div>
   <span id="hint"></span>
   <script>
@@ -106,5 +107,20 @@
 
     load();
   </script>
+
+  <style type="text/css">
+    .back {
+      background-color: #aaa;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 25px;
+      position: absolute;
+      z-index: 2;
+      right: 5px;top: 5px;
+
+    }
+  </style>
 </body>
 </html>

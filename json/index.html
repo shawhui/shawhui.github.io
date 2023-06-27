@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>JSONEditor</title>
+  <title>JSON Editor</title>
 
   <script src="./resources/cache.js"></script>
   
@@ -39,7 +40,28 @@
   </style>
 </head>
 <body>
-<div id="jsoneditor"></div>
+<div id="jsoneditor">
+</div>
 <script src="./resources/main.js"></script>
+<script type="text/javascript">
+  (()=>{
+
+    let jsoneditorMenus = document.getElementsByClassName("jsoneditor-menu")[0]
+    var node = window.document.createElement("div");
+    node.innerHTML = "<"
+    node.style.float = 'left'
+    node.style.width = '35px'
+    node.style.lineHeight = '35px'
+    node.style.textAlign = 'center'
+    // node.onClick = ()=>{
+    //   console.log("fjldsjflsj")
+    // }
+    node.addEventListener('click',()=>{
+      window.navigation.back();
+    });
+
+    jsoneditorMenus.insertBefore(node, jsoneditorMenus.childNodes[0]);
+  })()
+</script>
 </body>
 </html>
