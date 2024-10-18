@@ -1,0 +1,7 @@
+#  The date format
+
+tooltip: "%Y年%m月%d日"
+
+post:
+  long: "%Y年%m月%d日"
+  short: "%m月%d日"
