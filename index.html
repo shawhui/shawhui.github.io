@@ -1,4 +1,43 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShawHui</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="button" onclick="jumpTo('./index/json/index.html')">json</div>
+    <div class="button" onclick="jumpTo('./index/notelite.html')">notelite</div>
+    <div class="button" onclick="jumpTo('./index/read.html')">read</div>
+  </div>
+  <script type="text/javascript">
+    function jumpTo(argument) {
+      location.href = argument
+    }
+  </script>
+
+  <style type="text/css">
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      align-items: center;
+    }
+
+    .button {
+      border-radius: 5px;
+      border: 1px solid #d2d2d2;
+      padding: 5px 10px;
+      margin: 20px 5px;
+      background-color: #f2f2f2;
+      width: fit-content;
+    }
+  </style>
+
+</body>
+
+</html>
