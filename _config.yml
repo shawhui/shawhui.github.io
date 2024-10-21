@@ -17,18 +17,18 @@ timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: kokohuang's blog # the main title
+title: shawhui's blog # the main title
 
 tagline: 不忘初心，方得始终 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  kokohuang's blog.
+  shawhui's blog.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://kokohuang.github.io"
+url: "https://shawhui.github.io"
 
 github:
-  username: kokohuang # change to your github username
+  username: shawhui # change to your github username
 
 twitter:
   username: jianke00 # change to your twitter username
@@ -36,11 +36,11 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: kokohuang
+  name: shawhui
   email: huangjianke@vip.163.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/kokohuang # change to your github homepage
+    - https://github.com/shawhui # change to your github homepage
     - https://twitter.com/jianke00 # change to your twitter homepage
 
 google_site_verification: google_meta_tag_verification # change to your verification string
